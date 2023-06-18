@@ -1,0 +1,27 @@
+﻿@page
+@using System.Data.SqlClient;
+@{
+    try
+    {
+        String pid = Request.Query["pid"];
+
+        string connectionString = "Data Source=.\\sqlexpress;Initial Catalog=mystore;Integrated Security=True";
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+            connection.Open();
+            String sql = "DELETE FROM Personel WHERE pid = @pid";
+            using (SqlCommand command = new SqlCommand(sql, connection))
+            {
+                command.Parameters.AddWithValue("@pid", pid);
+                command.ExecuteNonQuery();
+            }
+        }
+    }
+    catch (Exception ex)
+    {
+
+    }
+
+    Response.Redirect("/Personel");
+}
+}

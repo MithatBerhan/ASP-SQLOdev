@@ -1,0 +1,38 @@
+﻿@page
+@model Verifinalodev.Pages.Musteri.IndexModel
+@{
+}
+
+<br>
+<h2>Musteriler</h2>
+<a class='btn btn-primary btn-sm' href='/Musteri/Create'>New Client</a>
+<br>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.ListClients)
+        {
+            <tr>
+                <td>@item.mid</td>
+                <td>@item.mname</td>
+                <td>@item.email</td>
+                <td>@item.phone</td>
+                <td>@item.tarih</td>
+                <td>@item.madres</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Musteri/Edit?id=@item.mid">Edit</a>
+                    <a class="btn btn-primary btn-sm" href="/Musteri/Delete?id=@item.mid">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

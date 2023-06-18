@@ -1,0 +1,35 @@
+﻿@page
+@model Verifinalodev.Pages.Personel.IndexModel
+@{
+}
+<br>
+<h2>Personeller</h2>
+<a class='btn btn-primary btn-sm' href='/Personel/Create'>Yeni Personel</a>
+<br>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.ListPersonel)
+        {
+            <tr>
+                <td>@item.pid</td>
+                <td>@item.pname</td>
+                <td>@item.pemail</td>
+                <td>@item.pphone</td>
+                <td>@item.ptarih</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Personel/Edit?id=@item.pid">Edit</a>
+                    <a class="btn btn-primary btn-sm" href="/Personel/Delete?id=@item.pid">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

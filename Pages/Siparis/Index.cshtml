@@ -1,0 +1,37 @@
+﻿@page
+@model Verifinalodev.Pages.Siparis.IndexModel
+@{
+}
+<br>
+<h2>Siparisler</h2>
+<a class='btn btn-primary btn-sm' href='/Siparis/Create'>Yeni Siparis</a>
+<br>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Mus ID</th>
+            <th>Adres</th>
+            <th>Icerik</th>
+            <th>Tanım</th>
+            <th>Tarih</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.ListSip)
+        {
+            <tr>
+                <td>@item.sipid</td>
+                <td>@item.musid</td>
+                <td>@item.sipadres</td>
+                <td>@item.sipicerik</td>
+                <td>@item.siptanim</td>
+                <td>@item.siptarih</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Musteri/Edit?id=@item.sipid">Edit</a>
+                    <a class="btn btn-primary btn-sm" href="/Musteri/Delete?id=@item.sipid">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

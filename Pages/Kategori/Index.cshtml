@@ -1,0 +1,30 @@
+﻿@page
+@model Verifinalodev.Pages.Kategori.IndexModel
+@{
+}
+<br>
+<h2>Kategori</h2>
+<a class='btn btn-primary btn-sm' href='/Kategori/Create'>Yeni Kategori</a>
+<br>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Kat Adı</th>
+            <th>Kat Tanım</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.ListKat)
+        {
+            <tr>
+                <td>@item.kid</td>
+                <td>@item.kname</td>
+                <td>@item.kattanim</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Kategori/Edit?id=@item.kid">Edit</a>
+                    <a class="btn btn-primary btn-sm" href="/Kategori/Delete?id=@item.kid">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

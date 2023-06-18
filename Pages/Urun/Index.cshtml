@@ -1,0 +1,38 @@
+﻿@page
+@model Verifinalodev.Pages.Urun.IndexModel
+@{
+}
+<br>
+<h2>Urunler</h2>
+<a class='btn btn-primary btn-sm' href='/Urun/Create'>Yeni Urun</a>
+<br>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.ListUrun)
+        {
+            <tr>
+                <td>@item.urunid</td>
+                <td>@item.uname</td>
+                <td>@item.urunstok</td>
+                <td>@item.urunkat</td>
+                <td>@item.urunkatid</td>
+                <td>@item.uruntanim</td>
+                <td>@item.uruntarih</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Urun/Edit?id=@item.urunid">Edit</a>
+                    <a class="btn btn-primary btn-sm" href="/Urun/Delete?id=@item.urunid">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

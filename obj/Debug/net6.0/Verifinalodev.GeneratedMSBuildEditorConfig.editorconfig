@@ -1,0 +1,125 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Verifinalodev
+build_property.RootNamespace = Verifinalodev
+build_property.ProjectDir = C:\Users\Berhan\Desktop\Verifinalodev\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Berhan\Desktop\Verifinalodev
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Kategori/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS2F0ZWdvcmlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Kategori/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS2F0ZWdvcmlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Kategori/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS2F0ZWdvcmlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Kategori/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS2F0ZWdvcmlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Musteri/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXVzdGVyaVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Musteri/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXVzdGVyaVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Musteri/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXVzdGVyaVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Musteri/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXVzdGVyaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Personel/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uZWxcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Personel/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uZWxcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Personel/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uZWxcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Personel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uZWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Siparis/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lwYXJpc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Siparis/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lwYXJpc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Siparis/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lwYXJpc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Siparis/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lwYXJpc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Urun/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXJ1blxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Urun/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXJ1blxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Urun/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXJ1blxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Urun/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXJ1blxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Berhan/Desktop/Verifinalodev/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-j7a06kizz8
